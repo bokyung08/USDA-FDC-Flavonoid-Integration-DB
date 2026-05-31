@@ -1,0 +1,48 @@
+# Raw public datasets and local source files
+/data/raw/*
+!/data/raw/.gitkeep
+*.csv
+*.xlsx
+*.xls
+
+# Generated ETL outputs
+/scripts/_run/
+*.log
+*_output.txt
+
+# Local reports and submission binaries
+*.docx
+*.pdf
+*.zip
+*.7z
+*.rar
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+env/
+
+# MySQL / database dumps
+*.sql.gz
+*.dump
+*.bak
+*.ibd
+*.frm
+
+# Editor and OS files
+.claude/
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Local secrets
+.env
+*.cnf
+*.my.cnf
