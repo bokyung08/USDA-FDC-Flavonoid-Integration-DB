@@ -4,6 +4,7 @@ USDA FDC × Flavonoid 통합 DB 구축 — 데이터베이스시스템 텀프로
 MySQL 8.0+ / utf8mb4 / InnoDB / DB명 `usda_fdc`
 
 > 본 문서는 **단계별 마스터 인덱스**입니다. 세부 로그는 각 `stage_*_log.md` 참조.
+> 프로젝트 전체를 한 페이지로 보려면 [OVERVIEW.md](OVERVIEW.md) 참조.
 > 진행마다 본 문서 + 해당 stage 로그 두 곳을 함께 갱신합니다.
 
 ## 1. 단계별 상태
